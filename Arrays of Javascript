@@ -1,0 +1,41 @@
+//introduction to arrays
+
+const player1 = 'Bruno';
+const player2 = 'DeBruyne';
+const player3 = 'Havertz';
+
+//Array declaration
+const Team1 = ['Bruno', 'DeBruyne', 'Havertz']
+console.log(Team1)
+
+//Another way to declare array
+const team2 = new Array('Lingaard', 'Maguire', 'Werner')
+console.log(team2)
+
+console.log(team2[2])
+console.log(Team1[1])
+
+
+console.log(Team1[Team1.length - 1])
+
+//number string array types all in array
+const team3 = [player1, 'Salah', 2021 - 2017, Team1]
+console.log(team3)
+
+
+function BirthYear(year) {
+    return 2021 - year;
+
+}
+
+const Years = [2000, 1999, 2004]
+
+const age1 = BirthYear(Years[0])
+const age2 = BirthYear(Years[1])
+const age3 = BirthYear(Years[2])
+
+console.log(age1, age2, age3)
+
+
+const AgeCount = [BirthYear(Years[0]), BirthYear(Years[1]), BirthYear(Years[2])]
+console.log(AgeCount)
