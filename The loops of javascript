@@ -1,0 +1,100 @@
+# 100-days-Javascript-challenge
+/ The loops of javascript
+
+for (let cnt = 0; cnt <= 20; cnt++) {
+
+    console.log(`The iteration is here at ${cnt}!!!`)
+
+
+}
+
+const Zilan = [
+    'Zilan',
+    'Zaman',
+    2021 - 2000,
+    "Bracu",
+    ['sahil', 'ismam', 'shuvo'],
+    true
+
+]
+
+
+const types = []
+
+
+
+
+
+for (let i = 0; i < Zilan.length; i++) {
+
+    //console.log(`${i} element is ${Zilan[i]}  ${typeof Zilan[i]}`)
+    types[i] = typeof Zilan[i]
+
+
+}
+
+
+//console.log(types)
+
+
+for (let i = 0; i < Zilan.length; i++) {
+
+    if (typeof Zilan[i] === 'string') continue
+
+    console.log(`${i} element is ${Zilan[i]}  ${typeof Zilan[i]}`)
+    types[i] = typeof Zilan[i]
+
+}
+
+const Zilan = [
+    'Zilan',
+    'Zaman',
+    2021 - 2000,
+    "Bracu",
+    ['sahil', 'ismam', 'shuvo'],
+    true
+
+]
+
+for (let i = Zilan.length - 1; i >= 0; i--) {
+
+    console.log(Zilan[i])
+
+}
+
+
+//nested loop
+
+for (let i = 1; i < 5; i++) {
+    console.log('-----Exercsie')
+
+    for (let j = 1; j < 7; j++) {
+
+        console.log(`${j} sit ups`)
+
+    }
+
+
+}
+
+
+
+
+//while loop
+
+let rep = 1
+
+while (rep <= 10) {
+    console.log(`iterartion is here ${rep} `)
+    rep++
+
+}
+
+let dice = Math.trunc(Math.random() * 6) + 1;
+console.log(dice)
+
+while (dice !== 6) {
+
+    console.log(`You rolled a ${dice}`)
+    dice = Math.trunc(Math.random() * 6) + 1;
+}
