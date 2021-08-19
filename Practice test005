@@ -1,0 +1,72 @@
+//005 Coding challenge
+function Calage(bill_value) {
+
+    if (bill_value >= 50 && bill_value <= 300) {
+        return bill_value * (15 / 100);
+    }
+
+    else {
+
+        return bill_value * (20 / 100);
+
+    }
+
+
+}
+
+const total = []
+const tip = []
+const bill = [22, 295, 176, 440, 37, 175]
+
+for (let i = 0; i < bill.length; i++) {
+    const a = Calage(bill[i])
+
+
+
+    tip.push(a)
+    let b = bill[i] + a
+    total.push(b)
+}
+
+
+console.log(tip)
+console.log(bill)
+console.log(total)
+
+
+function Calage(arr) {
+
+
+
+}
+const arr = [123, 321, 5423]
+let ans = 0;
+for (let i = 0; i < arr.length; i++) {
+
+    ans = arr[i] + ans;
+
+
+}
+
+ans = ans / arr.length
+console.log(ans)
+
+
+let sum = 0
+
+//taking an array in the function 
+function agebro(arr1) {
+
+    for (let i = 0; i < arr1.length; i++) {
+
+        sum = arr1[i] + sum;
+
+
+    }
+
+    return sum = sum / arr1.length
+
+}
+const c = agebro([1, 2, 3, 4, 5])
+
+console.log(c)
