@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(255, 255, 0);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.first{
+    color: aqua;
+}
+.second{
+    color:red;
+}
+
+p{
+margin-bottom: 20px;
+
+}
+#MyName {
+    background-color: green;
+    
+    
+    border: 5px solid rgba(68, 68, 68, 0.788);
+    padding: 25px;
+margin: 20px;
+
+}
+
+input,button{
+    padding: 10px;
+font-size: 15px;
+}
+
+a{
+    background-color: yellowgreen;
+}
+
+#RonaldoImage{
+    width: 300px;
+height: 300;
+}
+
+#MyName h2{
+    color: olivedrab
+
+}
